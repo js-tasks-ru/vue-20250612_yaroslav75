@@ -4,8 +4,8 @@ export default defineComponent({
   name: 'WeatherAlert',
   props: {
     alert: {
-      type: Object,
-      required: false,
+      type: [Object, null],
+      required: true,
     },
   },
 
